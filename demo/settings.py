@@ -16,6 +16,8 @@ MEDIA_URL = '/media/'
 
 ADMIN_MEDIA_PREFIX = STATIC_URL + "grappelli/"
 
+
+
 SECRET_KEY = 'jo-1rzm(%sf)3#n+fb7h955yu$3(pt63abhi12_t7e^^5q8dyw'
 
 USE_I18N = True
