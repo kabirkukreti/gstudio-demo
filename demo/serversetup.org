@@ -1,0 +1,31 @@
+
+
+
+
+ssh studio.gnowledge.org  ip - 158.144.44.225
+
+
+in  /etc/apt/sources.list  
+#add the foll. entry
+
+deb http://mirror.cse.iitk.ac.in/debian/ testing main contrib
+
+#After adding the testing repository, do an update and then install python2.7 package as follows:
+
+$ sudo aptitude update
+
+$ sudo aptitude install python2.7
+
+copy public 
+scp ~/.ssh/id_dsa studio.gnowledge.org:.ssh/
+
+sudo apt-get install build-essential python-dev libapache2-mod-wsgi
+
+server setup 
+http://library.linode.com/frameworks/django-apache-mod-wsgi/debian-6-squeeze
+
+
+go to file:
+/etc/apache2/sites-available/default
+
+
